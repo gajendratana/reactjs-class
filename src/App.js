@@ -28,6 +28,7 @@ function App() {
       {/* <UserChallengeTest /> */}
       {/* <ControlledInputs /> */}
       <FormsChallenge />
+      {/* <OtherInputs /> */}
     </div>
   );
 }

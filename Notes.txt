@@ -120,7 +120,7 @@ Challenge:
 
 
 HW:
-Can we use useState( ) inside if condition? If not why?
+Can we use useState() inside if condition? If not why?
 
 if (showContent) {
         const [error, setError] = useState(true)
@@ -158,3 +158,6 @@ Increased complexity as forms grow in size: As the size of the form grows, uncon
         <div>{item}</div>
     )
 })
+
+
+    TRY TO FINISH YESTERDAYS CHALLENGE OF DELETING THE USER FROM MAPPED ARRAY FOR THE NEXT 15 mins

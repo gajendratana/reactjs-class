@@ -22,6 +22,7 @@ const ControlledInputs = () => {
         // // do something
         // console.log(name, email, password);
     };
+
     return (
         <form className='form' onSubmit={handleSubmit}>
             <h4>controlled inputs</h4>

@@ -26,11 +26,12 @@ const FormsChallenge = () => {
     // }
     console.log('users', users)
 
-    const handleDelete = (e) => {
-        console.log('user from map', e.target.value)
+    const handleDelete = (user) => {
+        console.log('user from map', user)
         console.log('users from state', users)
-
-        // user filter array method
+        const newArr = users.filter((item) => item !== user)
+        setUsers(newArr)
+        console.log('newArr', newArr)
     }
 
     return (
@@ -48,7 +49,7 @@ const FormsChallenge = () => {
                     return (
                         <div key={index + 1}>
                             <h3> * {user}</h3>
-                            <button value={user} onClick={(user) => handleDelete(user)}>Delete User</button>
+                            <button value={user} onClick={() => handleDelete(user)}>Delete User</button>
                         </div>
                     )
                 })
