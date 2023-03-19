@@ -12,6 +12,8 @@ import './App.css';
 import ControlledInputs from './forms/01-controlled-inputs';
 import Uncontrolled from './forms/02-un-controlled'
 import FormsChallenge from './forms/03-forms-challenge'
+// import UseRefBasics from './useRef/useRefBasic';
+import ToggleExample from './custome-hook/01-toggle';
 function App() {
 
 
@@ -27,8 +29,10 @@ function App() {
       {/* <MultipleReturnsAdvance />  */}
       {/* <UserChallengeTest /> */}
       {/* <ControlledInputs /> */}
-      <FormsChallenge />
+      {/* <FormsChallenge /> */}
       {/* <OtherInputs /> */}
+      {/* <UseRefBasics /> */}
+      <ToggleExample />
     </div>
   );
 }
