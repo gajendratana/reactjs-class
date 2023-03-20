@@ -4,19 +4,32 @@ const url = 'https://api.github.com/users'
 const CodeFetchApi = () => {
     const [users, setUser] = useState([])
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await fetch(url)
-                const users = await response.json()
-                setUser(users)
-            }
-            catch (err) {
-                console.log(err)
-            }
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //         try {
+    //             const response = await fetch(url)
+    //             const users = await response.json()
+    //             setUser(users)
+    //         }
+    //         catch (err) {
+    //             console.log(err)
+    //         }
+    //     }
+    //     fetchData()
+    // }, [])
+
+
+    const fetchData = async () => {
+
+        try {
+
         }
-        fetchData()
-    }, [])
+
+        catch (err) {
+
+        }
+
+    }
 
 
     return (
