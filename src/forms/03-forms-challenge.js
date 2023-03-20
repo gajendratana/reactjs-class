@@ -15,7 +15,6 @@ const FormsChallenge = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        console.log('name', name)
         let newUser = name
         let updatedUser = [...users, newUser]
         setUsers(updatedUser)
@@ -24,15 +23,13 @@ const FormsChallenge = () => {
     // const handleNameChange = (e) => {
     //     setName(e.target.value)
     // }
-    console.log('users', users)
+    // console.log('users', users)
 
-    const handleDelete = (e) => {
-        console.log('user from map', e.target.value)
-        console.log('users from state', users)
-
-        // user filter array method
+    const handleDelete = (userss) => {
+             const neDelete= userss.target.value
+             let updatedUser=users.filter((item)=>item!==neDelete);
+       setUsers(updatedUser)
     }
-
     return (
         <div>
 
