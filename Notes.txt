@@ -168,4 +168,4 @@ Increased complexity as forms grow in size: As the size of the form grows, uncon
     useRef: 
 
     useState makes a component render everytime the state is updated
-    but in useRef the component is not rendered
+    but in useRef the component is not rendered 

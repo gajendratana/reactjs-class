@@ -14,6 +14,8 @@ import Uncontrolled from './forms/02-un-controlled'
 import FormsChallenge from './forms/03-forms-challenge'
 // import UseRefBasics from './useRef/useRefBasic';
 import ToggleExample from './custome-hook/01-toggle';
+
+import Search from './searchingData/Search'
 function App() {
 
 
@@ -32,7 +34,8 @@ function App() {
       {/* <FormsChallenge /> */}
       {/* <OtherInputs /> */}
       {/* <UseRefBasics /> */}
-      <ToggleExample />
+      {/* <ToggleExample /> */}
+      <Search/>
     </div>
   );
 }

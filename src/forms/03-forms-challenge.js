@@ -60,6 +60,5 @@ const FormsChallenge = () => {
         </div>
     )
 }
-
-export default FormsChallenge
-
+}
+export default FormsChallenge;
